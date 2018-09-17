@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2017",
+      "module": "CommonJs"
+    },
+    "files": [
+      "./node_modules/@types/socket.io/index.d.ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
