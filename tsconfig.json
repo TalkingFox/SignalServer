@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
       "target": "ES2017",
-      "module": "CommonJs"
+      "module": "CommonJs",
+      "outDir": "dist"
     },
     "files": [
       "./node_modules/@types/socket.io/index.d.ts"
@@ -11,7 +12,6 @@
     ],
     "exclude": [
       "node_modules"
-    ],
-    "outdir": "dist"
+    ]
   }
   

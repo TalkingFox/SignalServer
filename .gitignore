@@ -65,4 +65,5 @@ assets
 
 # build output
 build
+dist
 host.ps1
