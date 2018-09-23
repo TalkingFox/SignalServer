@@ -1,10 +1,9 @@
 import { Socket } from "socket.io";
 
 export class Room {
-    constructor(public name: string, public host: Host) {
-    }
-}
+    public players: Map<string,Socket>;
 
-export class Host {
-    constructor(public socket: Socket, public offer: string){}
+    constructor(public host: Socket, public name: string) {
+        this.players = new Map<string, Socket>();
+    }
 }
