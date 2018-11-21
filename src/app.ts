@@ -1,5 +1,6 @@
 import {Request, Response, Application} from 'express';
 import * as express from 'express';
+import * as cors from 'cors';
 import { readFileSync } from 'fs';
 
 export class App {
@@ -7,6 +8,7 @@ export class App {
 
     constructor() {
         this.app = express();
+        this.app.use(cors());
         this.configureRouting();
     }
 
