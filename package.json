@@ -5,7 +5,8 @@
   "description": "Simple EasyRTC server example which includes EasyRTC, Express, and Socket.io",
   "private": true,
   "scripts": {
-    "start": "ts-node src/server.ts"
+    "start": "ts-node src/server.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "@types/express": "^4.16.0",
